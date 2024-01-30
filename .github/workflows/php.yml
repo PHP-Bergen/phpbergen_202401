@@ -21,9 +21,6 @@ jobs:
         php-version: '8.3'
         tools: composer
 
-    - name: Print PHP version
-      run: echo ${{ steps.setup-php.outputs.php-version }}
-
     - name: Find directory
       run: echo ${{ github.workspace }}
 
