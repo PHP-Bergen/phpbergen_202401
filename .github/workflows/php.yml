@@ -20,9 +20,13 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
+          tools: composer
 
       - name: Print PHP version
         run: echo ${{ steps.setup-php.outputs.php-version }}
+
+      - name: Find directory
+        run: echo ${{ github.workspace }}
 
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
