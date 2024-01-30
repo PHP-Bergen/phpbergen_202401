@@ -1,4 +1,7 @@
 {
+  "name": "phpbergen/202401",
+  "description": "Talk and training",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Phpbergen\\": "src"
