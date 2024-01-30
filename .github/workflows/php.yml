@@ -21,9 +21,6 @@ jobs:
         php-version: '8.3'
         tools: composer
 
-    - name: Find directory
-      run: echo ${{ github.workspace }}
-
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
 
