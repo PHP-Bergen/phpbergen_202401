@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Phpbergen;
 
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
 /**
